@@ -984,7 +984,7 @@ a.theme-btn {
   padding: 10px 35px;
   align-items: center;
   position: relative;
-  color: var(--black-color);
+  color: var(--heading-color);
   border-radius: 15px;
   display: inline-flex;
   justify-content: center;

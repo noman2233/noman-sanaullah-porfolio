@@ -92,7 +92,7 @@ export const OnePageMenu = () => {
   return (
     <ul className="navigation onepage clearfix">
       <li>
-        <a href="#home">Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
         <a href="#about">about</a>
@@ -109,9 +109,9 @@ export const OnePageMenu = () => {
       <li>
         <a href="#portfolio">projects</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#blog">blog</a>
-      </li>
+      </li> */}
       <li>
         <a href="#contact">Contact</a>
       </li>

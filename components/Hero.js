@@ -3,7 +3,7 @@ import Counter from "./Counter";
 
 const counterData = [
   { id: 1, text: "Years Of Experience", value: "3", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "30", valueType: "plus" },
+  { id: 2, text: "Project Completed", value: "40", valueType: "plus" },
   { id: 3, text: "Client Satisfactions", value: "99", valueType: "percent" },
 ];
 
@@ -22,7 +22,7 @@ const Hero = () => {
              We build with unwavering focus, never discouraged by the challenges that shape our craft.
               </p>
               <div className="hero-btns">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="mailto:nomansanaullah6677@gmail.com">
                   <a className="theme-btn">
                     Hire Me <i className="far fa-angle-right" />
                   </a>

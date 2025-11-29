@@ -12,8 +12,8 @@ const About = () => {
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">About Me</span>
                   <h2>
-                    Professional <span>Problem-Solving </span> for Modern
-                    Software Systems
+                    Full-Stack Developer Focused on Clean Code &
+                    <span> Seamless User Experiences</span>
                   </h2>
                   <p>
                     With a strong focus on clean architecture and scalable
@@ -36,7 +36,9 @@ const About = () => {
                     <div className="content">
                       <span>Email Us</span>
                       <br />
-                      <a href="mailto:support@gmail.com">nomansanaullah6677@gmail.com</a>
+                      <a href="mailto:support@gmail.com">
+                        nomansanaullah6677@gmail.com
+                      </a>
                     </div>
                   </div>
                   <div className="info-box-item">
@@ -52,7 +54,10 @@ const About = () => {
             </div>
             <div className="col-lg-5">
               <div className="about-image-part wow fadeInUp delay-0-3s">
-                <img src="https://i.ibb.co/997QBmNp/Untitled-design.png" alt="About Me" />
+                <img
+                  src="https://i.ibb.co/997QBmNp/Untitled-design.png"
+                  alt="About Me"
+                />
                 <div className="about-btn btn-one wow fadeInRight delay-0-4s">
                   <img src="assets/images/about/btn-image1.png" alt="Image" />
                   <h6>Experience Developer</h6>

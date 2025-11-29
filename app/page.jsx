@@ -31,6 +31,7 @@ export default function Home() {
       <Skill />
       {/* Skill Area end */}
       {/* Projects Area start */}
+      {/* <Projects /> */}
       <Projects />
       {/* Projects Area end */}
       {/* Testimonial Area start */}
