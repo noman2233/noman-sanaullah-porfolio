@@ -40,7 +40,7 @@ const Header1 = ({ onePageMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="https://i.ibb.co/Z6BX1B1F/Noman-2-removebg-preview.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -56,7 +56,7 @@ const Header1 = ({ onePageMenu }) => {
                     <Link legacyBehavior href="/">
                       <a>
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="https://i.ibb.co/Z6BX1B1F/Noman-2-removebg-preview.png"
                           alt="Logo"
                           title="Logo"
                         />
@@ -125,15 +125,15 @@ const Header2 = ({ onePageMenu }) => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link legacyBehavior href="/">
+                {/* <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="https://i.ibb.co/Z6BX1B1F/Noman-2-removebg-preview.png"
                       alt="Logo"
                       title="Logo"
                     />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="nav-outer clearfix mx-auto">
@@ -144,7 +144,7 @@ const Header2 = ({ onePageMenu }) => {
                     <Link legacyBehavior href="/">
                       <a>
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="https://i.ibb.co/Z6BX1B1F/Noman-2-removebg-preview.png"
                           alt="Logo"
                           title="Logo"
                         />
@@ -159,9 +159,9 @@ const Header2 = ({ onePageMenu }) => {
                     data-bs-target=".navbar-collapse"
                     onClick={() => setToggle(!toggle)}
                   >
+                    {/* <span className="icon-bar" />
                     <span className="icon-bar" />
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
+                    <span className="icon-bar" /> */}
                   </button>
                 </div>
                 <div

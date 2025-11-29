@@ -48,10 +48,10 @@ const Hero = () => {
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="assets/images/hero/me.png" alt="Author" />
+              <img src="https://i.ibb.co/Fb0WgFXQ/Whats-App-Image-2025-07-16-at-5-46-28-AM-removebg-preview.png" alt="Author" />
               <div className="progress-shape">
                 <img
-                  src="assets/images/hero/progress-shape.png"
+                  src="https://i.ibb.co/FqVV0GFn/Chat-GPT-Image-Nov-29-2025-02-11-50-PM-removebg-preview.png"
                   alt="Progress"
                 />
               </div>
