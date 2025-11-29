@@ -984,7 +984,7 @@ a.theme-btn {
   padding: 10px 35px;
   align-items: center;
   position: relative;
-  color: var(--heading-color);
+  color: var(--black-color);
   border-radius: 15px;
   display: inline-flex;
   justify-content: center;
@@ -1178,7 +1178,7 @@ a.theme-btn.style-three {
   background-color: #131313;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/_next/static/media/preloader.2c80df80.gif);
+  /* background-image: url(/_next/static/media/preloader.2c80df80.gif); */
 }
 
 /* Pagination */

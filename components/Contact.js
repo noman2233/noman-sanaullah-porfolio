@@ -128,9 +128,9 @@ const Contact = () => {
                   </div>
                   <div className="col-md-12">
                     <div className="form-group mb-0">
-                      <button   className="theme-btn">
+                      <a   className="theme-btn" href="#" >
                         Send Us Message <i className="far fa-angle-right" />
-                      </button>
+                      </a>
                       <div id="msgSubmit" className="hidden" />
                     </div>
                   </div>

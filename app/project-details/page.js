@@ -15,39 +15,36 @@ const ProjectDetails = () => {
         <div className="container">
           <div className="projects-details-image mb-50 wow fadeInUp delay-0-2s">
             <img
-              src="assets/images/projects/project-details.jpg"
+              src="https://i.ibb.co/B2P3kRbF/Untitled-design-1.png"
               alt="Project Details"
             />
           </div>
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">
-                <h3>We Create digital Product For Business</h3>
+                <h3>Real Estate App in React Native</h3>
                 <p className="big-letter">
-                  sSed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem accusantium doloremque seeney laudantium totam rem
-                  aperiam eaque ipsa quae abillo inventore veritatis
+                  A fully responsive mobile app built with React Native,
+                  optimized for both Android and iOS devices.
                 </p>
                 <p>
-                  Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aufugit sed quia consequuntur
-                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-                  porro quisquam estqui dolorem ipsum quia dolor sit amet,
-                  consectetur, adipisci velit, sed quia non numquam eius modi
-                  tempora incidunt ut labore et dolore magnam aliquam quaerat
-                  voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem ullam corporis suscipit laboriosam, nisi ut
-                  aliquid consequature
+                  The Real Estate App is a cross-platform mobile application
+                  designed to help users browse, filter, and explore property
+                  listings with ease. Built using React Native, the app features
+                  an intuitive UI, real-time data sync with Firebase, and
+                  powerful location-based tools using Google Maps API. It
+                  provides a complete property browsing experience, from
+                  discovering listings to contacting agents directly from the
+                  app.
                 </p>
+
                 <ul className="list-style-one two-column mt-50 mb-40">
-                  <li>Branding &amp; Design</li>
-                  <li>Digital Marketing</li>
-                  <li>Web Development</li>
-                  <li>Product Design</li>
-                  <li>Mobile Apps Design</li>
-                  <li>System &amp; Guide</li>
-                  <li>Graphics Design</li>
-                  <li>Content Management</li>
+                  <li> React Native CLI</li>
+                  <li>Redux for state management</li>
+                  <li>Firebase Implementation</li>
+                  <li>REST API Integration</li>
+                  <li>Google Maps API</li>
+                  <li>Advance Search filters</li>
                 </ul>
               </div>
             </div>
@@ -82,7 +79,7 @@ const ProjectDetails = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/projects/project-middle1.jpg"
+                  src="https://i.ibb.co/M5R8JpTk/Untitled-design-3.png"
                   alt="Project Middle"
                 />
               </div>
@@ -90,70 +87,40 @@ const ProjectDetails = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
                 <img
-                  src="assets/images/projects/project-middle2.jpg"
+                  src="https://i.ibb.co/sJH6VgDB/Untitled-design-4.png"
                   alt="Project Middle"
                 />
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            {/* <div className="col-lg-4 col-sm-6">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <img
                   src="assets/images/projects/project-middle3.jpg"
                   alt="Project Middle"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="project-bottom-content mb-50 wow fadeInUp delay-0-2s">
             <h3 className="title mb-25">Project Summery</h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum is therefore always free
-              from repetition, injected humour, or non-characteristic words etc.
+              Key Features 📌 Property Listings with Image Gallery View detailed
+              property listings with multiple images, descriptions, pricing,
+              location details, and property types. 🔍 Advanced Search & Filters
+              Filter properties by city, price range, property type (house,
+              apartment, plot), and more to find exactly what you're looking
+              for. ☁️ Firebase Backend Integration Real-time database or
+              Firestore for storing property data and user activities Firebase
+              Authentication for secure user sign-ups and logins 🗺 Google Maps
+              Integration Each listing includes a built-in map view showing the
+              exact property location for improved accuracy and user confidence.
+              ❤️ Saved Listings Users can bookmark their favorite properties for
+              quick access anytime. 📞 Contact Agent Each property includes a
+              direct call or message button, enabling users to contact agents
+              instantly.
             </p>
           </div>
-          <div className="tag-share py-30 wow fadeInUp delay-0-2s">
-            <div className="item">
-              <b>Tags</b>
-              <div className="tag-coulds">
-                <Link legacyBehavior href="blog">
-                  Design
-                </Link>
-                <Link legacyBehavior href="blog">
-                  Figma
-                </Link>
-                <Link legacyBehavior href="blog">
-                  Apps
-                </Link>
-              </div>
-            </div>
-            <div className="item">
-              <b>Share</b>
-              <div className="social-style-one">
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-              </div>
-            </div>
-          </div>
+      
         </div>
         <div className="bg-lines">
           <span />
@@ -170,7 +137,7 @@ const ProjectDetails = () => {
       </section>
       {/* Project Details Area end */}
       {/* Related Projects Area start */}
-      <section className="related-projects-area pb-70 rpb-40 rel z-1">
+      {/* <section className="related-projects-area pb-70 rpb-40 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-12">
@@ -248,8 +215,9 @@ const ProjectDetails = () => {
           <span />
           <span />
         </div>
-      </section>
+      </section> */}
     </NoxfolioLayout>
   );
 };
 export default ProjectDetails;
+

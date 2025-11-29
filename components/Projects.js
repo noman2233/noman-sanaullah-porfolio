@@ -1,52 +1,8 @@
+import { projects } from "@/utility/data";
 import Link from "next/link";
 
 const Projects = () => {
-
-  const projects = [
-  {
-    id: 1,
-    title: "Mobile Application Design",
-    category: "Product Design",
-    image: "assets/images/projects/project1.jpg",
-    description:
-      "Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae",
-    link: "/project-details",
-    reverse: false,
-  },
-  {
-    id: 2,
-    title: "Website Makeup Design",
-    category: "Product Design",
-    image: "assets/images/projects/project2.jpg",
-    description:
-      "Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae",
-    link: "/project-details",
-    reverse: true,
-  },
-  {
-    id: 3,
-    title: "Brand Identity and Motion Design",
-    category: "Product Design",
-    image: "assets/images/projects/project3.jpg",
-    description:
-      "Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae",
-    link: "/project-details",
-    reverse: false,
-  },
-  {
-    id: 4,
-    title: "Mobile Application Development",
-    category: "Product Design",
-    image: "assets/images/projects/project4.jpg",
-    description:
-      "Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae",
-    link: "/project-details",
-    reverse: true,
-  },
-];
-
-
-
+ 
   return (
     <section
       id="portfolio"
@@ -58,7 +14,7 @@ const Projects = () => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Latest Works</span>
               <h2>
-                Explore My Popular <span>Projects</span>
+                Explore My Popular  <span>Projects</span>
               </h2>
             </div>
           </div>
@@ -90,42 +46,40 @@ const Projects = () => {
           </div>
         </div> */}
 
-        {projects.map((project) => (
-  <div className="row align-items-center pb-25" key={project.id}>
-    {/* IMAGE */}
-    <div className={`col-lg-6 ${project.reverse ? "order-lg-2" : ""}`}>
-      <div className="project-image wow fadeInLeft delay-0-2s">
-        <img src={project.image} alt={project.title} />
-      </div>
-    </div>
+        {projects?.slice(0,3).map((project) => (
+          <Link legacyBehavior href={`/projects/${project?.slug}`}>
+            <div className="row align-items-center pb-25" key={project.id}>
+              {/* IMAGE */}
+              <div
+                className={`col-lg-6 ${project.reverse ? "order-lg-2" : ""}`}
+              >
+                <div className="project-image wow fadeInLeft delay-0-2s">
+                  <img src={project?.card_image} alt={project.title} />
+                </div>
+              </div>
 
-    {/* CONTENT */}
-    <div
-      className={`col-xl-5 col-lg-6 ${
-        project.reverse ? "ms-auto" : ""
-      }`}
-    >
-      <div className="project-content wow fadeInRight delay-0-2s">
-        <span className="sub-title">{project.category}</span>
+              {/* CONTENT */}
+              <div
+                className={`col-xl-5 col-lg-6 ${
+                  project.reverse ? "ms-auto" : ""
+                }`}
+              >
+                <div className="project-content wow fadeInRight delay-0-2s">
+                  <span className="sub-title">{project.category}</span>
 
-        <h2>
-          <Link legacyBehavior href={project.link}>
-            {project.title}
+                  <h2>{project.title}</h2>
+
+                  <p>{project.description}</p>
+
+                  <a className="details-btn">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </Link>
-        </h2>
+        ))}
 
-        <p>{project.description}</p>
-
-        <Link legacyBehavior href={project.link}>
-          <a className="details-btn">
-            <i className="far fa-arrow-right" />
-          </a>
-        </Link>
-      </div>
-    </div>
-  </div>
-))}
-     
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
           <Link legacyBehavior href="/projects">
             <a className="theme-btn">
@@ -162,7 +116,7 @@ export const Projects2 = () => {
           <div className="col-xl-12">
             <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">
-                <i className="flaticon-asterisk-1" /> Explore my projects
+                <i className="flaticon-asterisk-1" /> start my projects
               </span>
               <h2>Explore My Projects</h2>
             </div>
