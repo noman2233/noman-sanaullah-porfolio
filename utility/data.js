@@ -155,7 +155,7 @@ export const projects = [
   {
     slug: "travel-booking-app",
     title: "Travel Booking Mobile App",
-    banner: "https://i.ibb.co/XYZ/travel-booking-banner.png", // replace with your banner image
+    banner: "https://i.ibb.co/LzmZz63j/Untitled-design.jpg", // replace with your banner image
     card_image: "https://i.ibb.co/7JX41jnW/Add-a-subheading-2.jpg", // replace with your banner image
     category: "App Development",
     client: "Freelance / Upwork Project",
