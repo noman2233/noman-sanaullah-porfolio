@@ -93,7 +93,7 @@ export const projects = [
     slug: "real-estate-app",
     title: "Real Estate App in React Native",
     banner: "https://i.ibb.co/B2P3kRbF/Untitled-design-1.png",
-    card_image:"assets/images/projects/project1.jpg"
+    card_image:"https://i.ibb.co/Qj6r85S5/1000033359-artguru.png"
 ,    category: "Appp development",
     client: "Shalimar group Sargodha",
     location: "Sargodha ,Pakistan",
@@ -156,6 +156,7 @@ export const projects = [
     slug: "travel-booking-app",
     title: "Travel Booking Mobile App",
     banner: "https://i.ibb.co/XYZ/travel-booking-banner.png", // replace with your banner image
+    card_image: "https://i.ibb.co/7JX41jnW/Add-a-subheading-2.jpg", // replace with your banner image
     category: "App Development",
     client: "Freelance / Upwork Project",
     location: "Remote",
@@ -195,7 +196,7 @@ export const projects = [
     client: "Freelance / Personal Project",
     location: "Lahore, Pakistan",
     published: "July 25, 2023",
-    card_image:"https://nomansanaullah.vercel.app/assets/images/projects/project4.jpg",
+    card_image:"https://i.ibb.co/CshztcpB/Whats-App-Image-2025-11-30-at-6-56-10-PM.jpg",
     
     description: `
     A cross-platform Ecommerce App built with React Native for Android and iOS, delivering a seamless mobile shopping experience.
@@ -227,7 +228,8 @@ export const projects = [
 {
   slug: "rebate-assistance-victoria",
   title: "Rebate Assistance Victoria",
-  banner: "https://i.ibb.co/XYZ/rebate-assistance-victoria-banner.png", // replace with actual hero/banner image of site
+  banner: "https://i.ibb.co/BVSvGhjK/Add-a-subheading-1.jpg", // replace with actual hero/banner image of site
+  card_image: "https://i.ibb.co/BVSvGhjK/Add-a-subheading-1.jpg", // replace with actual hero/banner image of site
   category: "Web / Consultancy Service Platform",
   client: "Rebate Assistance Victoria",
   location: "Melbourne, VIC, Australia",
