@@ -46,7 +46,7 @@ const Projects = () => {
           </div>
         </div> */}
 
-        {projects?.slice(0,3).map((project) => (
+        {projects?.slice(0,5).map((project) => (
           <Link legacyBehavior href={`/projects/${project?.slug}`}>
             <div className="row align-items-center pb-25" key={project.id}>
               {/* IMAGE */}

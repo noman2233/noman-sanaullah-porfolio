@@ -128,7 +128,7 @@ export const projects = [
   client: "Shalimar Group Sargodha",
   location: "Sargodha, Pakistan",
   published: "October 10, 2023",
-    card_image:"assets/images/projects/project2.jpg",
+    card_image:"https://i.ibb.co/CshztcpB/Whats-App-Image-2025-11-30-at-6-56-10-PM.jpg",
     
     description: `
     A modern real estate and infrastructure platform built with the MERN stack, optimized for web and mobile.
@@ -161,7 +161,7 @@ export const projects = [
     client: "Freelance / Upwork Project",
     location: "Remote",
     published: "November 20, 2023",
-    card_image:"assets/images/projects/project3.jpg",
+  
     description: `
     A production-ready Travel Booking Mobile App (Android + iOS) built with React Native (CLI) and Node.js, allowing users to search hotels, make bookings, and pay securely online.
     `,
@@ -180,9 +180,9 @@ export const projects = [
        "Formik + Yup for form validation and UX"
     ],
     images: [
-      "https://i.ibb.co/XYZ/travel-booking-1.png",
-      "https://i.ibb.co/XYZ/travel-booking-2.png",
-      "https://i.ibb.co/XYZ/travel-booking-3.png"
+      "https://i.ibb.co/5hKJnhy3/Build-with-React-native.jpg",
+      "https://i.ibb.co/jpgP3qk/Build-with-React-native.png",
+   
     ],
     reverse: false,
     
@@ -196,7 +196,7 @@ export const projects = [
     client: "Freelance / Personal Project",
     location: "Lahore, Pakistan",
     published: "July 25, 2023",
-    card_image:"https://i.ibb.co/CshztcpB/Whats-App-Image-2025-11-30-at-6-56-10-PM.jpg",
+    card_image:"https://i.ibb.co/Ff9Tdgg/1000033357-artguru.png",
     
     description: `
     A cross-platform Ecommerce App built with React Native for Android and iOS, delivering a seamless mobile shopping experience.
