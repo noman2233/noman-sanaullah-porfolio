@@ -2,12 +2,12 @@
 
 // 1. Import your projects array from its file path
 // Update the path '../data/projects' to point exactly to wherever that file is stored
-
+import { projects } from "@/utility/data";
 export default async function sitemap() {
   const baseUrl = "https://nomansanaullah.vercel.app";
 
   // 2. Automatically map over the array using the 'slug' key
-  const projectUrls = project.map((project) => ({
+  const projectUrls = projects.map((project) => ({
     url: `${baseUrl}/projects/${project.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
