@@ -39,7 +39,7 @@ export const metadata = {
                     that meets real-world needs while ensuring performance,
                     security, and long-term maintainability.`,
   verification: {
-    google: "googleff6771107a7b7d25",
+     google: "4HxCz0udExNokKiP3OvaDTjUGGxbgY1-f-gI-PN40fg",
     
   },
 };
