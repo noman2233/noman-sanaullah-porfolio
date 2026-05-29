@@ -40,6 +40,7 @@ export const metadata = {
                     security, and long-term maintainability.`,
   verification: {
     google: "googleff6771107a7b7d25",
+    
   },
 };
 
