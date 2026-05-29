@@ -32,12 +32,15 @@ export const metadata = {
     template: "Noman - Personal Portfolio  ",
     default: "Noman - Personal Portfolio  || Home", // a default is required when creating a template
   },
-  description: `  With a strong focus on clean architecture and scalable
+  description: `With a strong focus on clean architecture and scalable
                     engineering, I craft reliable digital solutions backed by
                     deep technical understanding. I analyze complex challenges,
                     design efficient systems, and deliver high-quality software
                     that meets real-world needs while ensuring performance,
                     security, and long-term maintainability.`,
+  verification: {
+    google: "googleff6771107a7b7d25",
+  },
 };
 
 export default function RootLayout({ children }) {

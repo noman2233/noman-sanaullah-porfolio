@@ -6,7 +6,7 @@ const items = [
   {
     id: 2,
     name: "React Native",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    image: "https://i.ibb.co/B5SN5VFW/download-2-removebg-preview.png",
     value: "83",
   },
   {
@@ -43,7 +43,7 @@ const items = [
     {
     id: 4,
     name: "TypeScript",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    image: "data:image/png;base64,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",
     value: "84",
   },
     {

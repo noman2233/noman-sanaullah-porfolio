@@ -1,4 +1,4 @@
-// File: /Users/macbookpro/Downloads/noxfolio-personal-portfolio-resume-reac-template-CEH7PK8 2/Noxfolio react/React Template/app/page.jsx
+// File: /Users/macbookpro/Documents/Personal/noman portfolio/app/page.jsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
