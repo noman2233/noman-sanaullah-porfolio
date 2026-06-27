@@ -60,14 +60,14 @@ const About = () => {
                 />
                 <div className="about-btn btn-one wow fadeInRight delay-0-4s">
                   <img src="assets/images/about/btn-image1.png" alt="Image" />
-                  <h6>Experience Developer</h6>
-                  <i className="fas fa-arrow-right" />
-                </div>
-                <div className="about-btn btn-two wow fadeInRight delay-0-5s">
-                  <img src="assets/images/about/btn-image2.png" alt="Image" />
                   <h6>Noman Sanaullah</h6>
                   <i className="fas fa-arrow-right" />
                 </div>
+                {/* <div className="about-btn btn-two wow fadeInRight delay-0-5s">
+                  <img src="assets/images/about/btn-image2.png" alt="Image" />
+                  <h6>Noman Sanaullah</h6>
+                  <i className="fas fa-arrow-right" />
+                </div> */}
                 <div className="dot-shape">
                   <img src="assets/images/shape/about-dot.png" alt="Shape" />
                 </div>
