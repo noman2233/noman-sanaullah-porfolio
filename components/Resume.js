@@ -66,7 +66,7 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2014 - 2016</span>
+                      <span className="years">2023 - 2023</span>
                       <h4>Software developer Intern</h4>
                       <span className="company">Shlaimar Group of Comapnies</span>
                     </div>

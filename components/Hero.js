@@ -19,7 +19,8 @@ const Hero = () => {
                 <b>Noman Sanaullah</b> Software Developer
               </h1>
               <p>
-             We build with unwavering focus, never discouraged by the challenges that shape our craft.
+                We build with unwavering focus, never discouraged by the
+                challenges that shape our craft.
               </p>
               <div className="hero-btns">
                 <Link legacyBehavior href="mailto:nomansanaullah6677@gmail.com">
@@ -27,8 +28,20 @@ const Hero = () => {
                     Hire Me <i className="far fa-angle-right" />
                   </a>
                 </Link>
-                <Link legacyBehavior href="/contact">
+                {/* <Link legacyBehavior href="/contact">
                   <a className="read-more">
+                    Download Resume <i className="far fa-angle-right" />
+                  </a>
+                </Link> */}
+                <Link
+                  legacyBehavior
+                  href="https://drive.google.com/uc?export=download&id=1Hwu3ch-uZJ0nQskYPNmCSYXRmnYhN3yr"
+                >
+                  <a
+                    className="read-more"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Download Resume <i className="far fa-angle-right" />
                   </a>
                 </Link>
@@ -48,7 +61,10 @@ const Hero = () => {
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="https://i.ibb.co/Fb0WgFXQ/Whats-App-Image-2025-07-16-at-5-46-28-AM-removebg-preview.png" alt="Author" />
+              <img
+                src="https://i.ibb.co/Fb0WgFXQ/Whats-App-Image-2025-07-16-at-5-46-28-AM-removebg-preview.png"
+                alt="Author"
+              />
               <div className="progress-shape">
                 <img
                   src="https://i.ibb.co/FqVV0GFn/Chat-GPT-Image-Nov-29-2025-02-11-50-PM-removebg-preview.png"
@@ -76,46 +92,46 @@ const Hero = () => {
 };
 export default Hero;
 
-export const Hero2 = () => {
-  return (
-    <div id="home" className="hero-area-two pt-150 rel z-2">
-      <div className="container rel z-3">
-        <div className="hero-two-content">
-          <span className="sub-title wow fadeInLeft delay-0-1s">
-            <i className="flaticon-asterisk-1" /> UI/UX Designer
-          </span>
-          <span className="title wow fadeInLeft delay-0-2s">
-            Hello <small>i,m</small>
-          </span>
-          <span className="name wow fadeInRight delay-0-4s">henry gayle</span>
-          <span className="designations wow fadeInLeft delay-0-6s">
-            <span>Ux</span> Designer
-          </span>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-xl-6 col-lg-7">
-            <div className="author-image-part wow fadeIn delay-0-3s">
-              <div className="bg-circle" />
-              <img src="assets/images/hero/hero-two.png" alt="Author" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <a href="#about" className="scroll-down">
-        <img src="assets/images/hero/scroll-down.png" alt="" />
-      </a>
-      <div className="bg-lines">
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-      </div>
-    </div>
-  );
-};
+// export const Hero2 = () => {
+//   return (
+//     <div id="home" className="hero-area-two pt-150 rel z-2">
+//       <div className="container rel z-3">
+//         <div className="hero-two-content">
+//           <span className="sub-title wow fadeInLeft delay-0-1s">
+//             <i className="flaticon-asterisk-1" /> UI/UX Designer
+//           </span>
+//           <span className="title wow fadeInLeft delay-0-2s">
+//             Hello <small>i,m</small>
+//           </span>
+//           <span className="name wow fadeInRight delay-0-4s">henry gayle</span>
+//           <span className="designations wow fadeInLeft delay-0-6s">
+//             <span>Ux</span> Designer
+//           </span>
+//         </div>
+//         <div className="row justify-content-center">
+//           <div className="col-xl-6 col-lg-7">
+//             <div className="author-image-part wow fadeIn delay-0-3s">
+//               <div className="bg-circle" />
+//               <img src="assets/images/hero/hero-two.png" alt="Author" />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       <a href="#about" className="scroll-down">
+//         <img src="assets/images/hero/scroll-down.png" alt="" />
+//       </a>
+//       <div className="bg-lines">
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//       </div>
+//     </div>
+//   );
+// };

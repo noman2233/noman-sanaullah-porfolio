@@ -14,7 +14,7 @@ const Services = ({ extraClass }) => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Popular Services</span>
               <h2>
-                My <span>Special Service</span> For your Business Development
+                My <span> Service</span> For Development
               </h2>
             </div>
           </div>
