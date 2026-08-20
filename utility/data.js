@@ -94,7 +94,7 @@ export const projects = [
     title: "Real Estate App in React Native",
     banner: "https://i.ibb.co/B2P3kRbF/Untitled-design-1.png",
     card_image:"https://i.ibb.co/Qj6r85S5/1000033359-artguru.png"
-,    category: "Appp development",
+,    category: "App Development",
     client: "Shalimar group Sargodha",
     location: "Sargodha ,Pakistan",
     published: "September 25, 2023",
@@ -230,7 +230,7 @@ export const projects = [
   title: "Rebate Assistance Victoria",
   banner: "https://i.ibb.co/BVSvGhjK/Add-a-subheading-1.jpg", // replace with actual hero/banner image of site
   card_image: "https://i.ibb.co/BVSvGhjK/Add-a-subheading-1.jpg", // replace with actual hero/banner image of site
-  category: "Web / Consultancy Service Platform",
+  category: "Web Development",
   client: "Rebate Assistance Victoria",
   location: "Melbourne, VIC, Australia",
   published: "2025-11-29",  // change date as needed
@@ -259,7 +259,158 @@ export const projects = [
   ],
   reverse:false
 }
+,
 
+{
+    slug: "clean-power-co",
+    title: "Clean Power Co - Renewable Energy",
+    banner: "https://i.ibb.co/v6sR0Vgx/Screenshot-2026-08-20-at-4-18-43-PM.png",
+    card_image: "https://i.ibb.co/v6sR0Vgx/Screenshot-2026-08-20-at-4-18-43-PM.png",
+    category: "Web Development",
+    client: "Clean Power Co",
+    location: "Melbourne, VIC, Australia",
+    published: "2026-02-15",
+    external_url: "https://cleanpowerco.com.au", // Direct external link
+    description: `
+      A modern solar and clean energy platform helping homeowners and commercial clients in Victoria access government rebates, battery storage, and custom solar setups.
+    `,
+    details: `
+      Clean Power Co provides end-to-end solar energy solutions tailored for residential and commercial properties across Victoria. The website showcases Tier-1 solar panel packages, smart battery storage options, EV charger installations, and maintenance services. Built with a responsive interface, it integrates rebate eligibility checking flows, ROI energy savings calculators, and CEC-accredited installation workflows.
+    `,
+    tech: [
+      "Next.js / React",
+      "Tailwind CSS / Bootstrap",
+      "Solar Victoria Rebate API Integration",
+      "Interactive Savings Calculator",
+      "Dynamic Quote Request Flow",
+      "SEO & Performance Optimization"
+    ],
+    images: [
+      "https://i.ibb.co/LzmZz63j/Untitled-design.jpg",
+      "https://i.ibb.co/Yk2xZQk/shalimar-smart-city-banner.png"
+    ],
+    reverse: false
+  },
+  {
+    slug: "clean-roofing-co",
+    title: "Clean Roofing Co - Roof Restoration & Repair",
+    banner: "https://i.ibb.co/9kMdgVLr/Screenshot-2026-08-20-at-4-17-54-PM.png",
+    card_image: "https://i.ibb.co/9kMdgVLr/Screenshot-2026-08-20-at-4-17-54-PM.png",
+    category: "Web Development",
+    client: "Clean Roofing Co",
+    location: "Melbourne, VIC, Australia",
+    published: "2026-03-01",
+    external_url: "https://cleanroofingco.com.au", // Opens site directly
+    description: `
+      A premium trade service website providing roof restorations, roof repairs, tile painting, and gutter replacements for residential and commercial properties in Victoria.
+    `,
+    details: `
+      Clean Roofing Co is a modern trade platform designed to capture high-intent service leads across Melbourne. The site features an instant roof inspection quote request system, an interactive before-and-after project gallery, clear breakdown of restoration processes, and integration with local customer review channels. Built for high conversion, fast mobile performance, and local SEO dominance.
+    `,
+    tech: [
+      "Next.js / React",
+      "Responsive Web Design",
+      "Dynamic Inspection Booking Flow",
+      "Interactive Before/After Image Slider",
+      "Local SEO & Schema Markup",
+      "Google Reviews & Testimonials API"
+    ],
+    images: [
+      "https://i.ibb.co/BVSvGhjK/Add-a-subheading-1.jpg",
+      "https://i.ibb.co/CshztcpB/Whats-App-Image-2025-11-30-at-6-56-10-PM.jpg"
+    ],
+    reverse: false
+  }
+,
+{
+    slug: "victorian-energy-subsidies",
+    title: "Victorian Energy Subsidies Platform",
+    banner: "https://i.ibb.co/yBmHftw9/Screenshot-2026-08-20-at-4-23-42-PM.png",
+    card_image: "https://i.ibb.co/yBmHftw9/Screenshot-2026-08-20-at-4-23-42-PM.png",
+    category: "Web Development",
+    client: "Victorian Energy Subsidies",
+    location: "Melbourne, VIC, Australia",
+    published: "2026-03-05",
+    external_url: "https://www.victorianenergysubsidies.org", // Direct external link
+    description: `
+      An informational and eligibility-checking portal helping Victorian residents access government rebates for heat pumps, hot water upgrades, and energy-efficient appliances.
+    `,
+    details: `
+      Victorian Energy Subsidies is a specialized web platform designed to help homeowners and renters across Victoria check their eligibility for state energy upgrade incentives (VEU program). Features a streamlined multi-step qualification form, real-time lead routing to certified installers, comprehensive guides on heat pump and solar subsidies, and an intuitive, mobile-first interface optimized for maximum conversion rates.
+    `,
+    tech: [
+      "Next.js / React",
+      "Multi-Step Eligibility Form Engine",
+      "Dynamic Lead Routing API",
+      "Mobile-First Responsive Layout",
+      "Local SEO Optimization",
+      "Fast Caching & Performance Tuning"
+    ],
+    images: [
+      "https://i.ibb.co/LzmZz63j/Untitled-design.jpg",
+      "https://i.ibb.co/Yk2xZQk/shalimar-smart-city-banner.png"
+    ],
+    reverse: true
+  },
+  {
+    slug: "pos-inventory-analytics-dashboard",
+    title: "Multi-Store POS & Inventory Dashboard",
+    banner: "https://i.ibb.co/HTDf1qY8/Screenshot-2026-08-20-at-4-29-19-PM.png",
+    card_image: "https://i.ibb.co/HTDf1qY8/Screenshot-2026-08-20-at-4-29-19-PM.png",
+    category: "Admin Dashboards",
+    client: "Retail & E-Commerce Client",
+    location: "Lahore, Pakistan",
+    published: "2026-02-10",
+    description: `
+      A real-time admin portal for tracking multi-store sales performance, automated stock alerts, order fulfillment pipelines, and financial analytics.
+    `,
+    details: `
+      Designed for enterprise retail operations, this dashboard unifies physical POS terminals and e-commerce inventory into a single control center. Features interactive revenue charts, automated low-stock notifications, profit margin calculators, role-based staff permission management, and custom CSV/PDF report exports for accounting teams.
+    `,
+    tech: [
+      "Next.js App Router",
+      "React Query for Data Fetching",
+      "Chart.js & Recharts Data Visualization",
+      "Tailwind CSS & Shadcn UI",
+      "Node.js / Express Backend",
+      "Role-Based Access Control (RBAC)"
+    ],
+    images: [
+      "https://i.ibb.co/Yk2xZQk/shalimar-smart-city-banner.png",
+      "https://i.ibb.co/B2P3kRbF/Untitled-design-1.png"
+    ],
+    reverse: false
+  },
 
+  {
+    slug: "syncell-bio-labs",
+    title: "Syncell Bio Labs E-Commerce Store",
+    banner: "https://i.ibb.co/9HJ9FSHp/Screenshot-2026-08-20-at-4-36-24-PM.png",
+    card_image: "https://i.ibb.co/j9q5TC3s/Screenshot-2026-08-20-at-4-35-06-PM.png",
+    category: "Ecommerce Solutions",
+    client: "Syncell Bio Labs",
+    location: "International",
+    published: "2026-08-01",
+    external_url: "https://syncellbiolabs.com", // Direct link to live website
+     description: `
+      An e-commerce platform built for scientific and laboratory products, featuring secure user authentication, product catalog filters, and automated SMTP transactional emails.
+    `,
+    details: `
+      Syncell Bio Labs is a specialized biotech e-commerce store designed for online product ordering and user management. The platform features secure account registration, customer authentication, Google Sign-In integration, organized product category filtering, and transactional email automation powered by Brevo SMTP for order confirmations and account verification.
+    `,
+    tech: [
+      "WooCommerce / WordPress Engine",
+      "Custom User Registration & Authentication",
+      "Google Auth Integration",
+      "Brevo SMTP Email Integration",
+      "Responsive E-Commerce Layout",
+      "Secure Checkout Flow"
+    ],
+    images: [
+      "https://i.ibb.co/CshztcpB/Whats-App-Image-2025-11-30-at-6-56-10-PM.jpg",
+      "https://i.ibb.co/BVSvGhjK/Add-a-subheading-1.jpg"
+    ],
+    reverse: false
+  }
 
 ];

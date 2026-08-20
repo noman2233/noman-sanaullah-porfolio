@@ -39,15 +39,16 @@ export const metadata = {
                     that meets real-world needs while ensuring performance,
                     security, and long-term maintainability.`,
   verification: {
-     google: "vjneiA8RDeaaJ9v555KI4vnF5BYEpoX_Kp6MhRmo_Q0",
-      
-    
+    google: "vjneiA8RDeaaJ9v555KI4vnF5BYEpoX_Kp6MhRmo_Q0",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${fontFamily} scroll-smooth`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${dm_sans.variable} scroll-smooth`}
+    >
       <body>
         <Preloader />
         {children}
