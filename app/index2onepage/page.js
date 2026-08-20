@@ -5,7 +5,7 @@ import { Contact2 } from "@/components/Contact";
 import { Hero2 } from "@/components/Hero";
 import LetsTalk from "@/components/LetsTalk";
 import { Pricing2 } from "@/components/Pricing";
-import { Projects2 } from "@/components/Projects";
+// import { Projects2 } from "@/components/Projects";
 import { Resume2 } from "@/components/Resume";
 import ScrollTop from "@/components/ScrollTop";
 import { Services2 } from "@/components/Services";
@@ -276,7 +276,7 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
       {/* Projects Area start */}
-      <Projects2 />
+      {/* <Projects2 /> */}
       {/* Projects Area end */}
       {/* Awward Area start */}
       <section

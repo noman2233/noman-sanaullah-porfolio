@@ -1,4 +1,19 @@
 {
+  "/index2onepage/page": "app/index2onepage/page.js",
+  "/page": "app/page.js",
+  "/indexonepage/page": "app/indexonepage/page.js",
   "/projects/[slug]/page": "app/projects/[slug]/page.js",
-  "/page": "app/page.js"
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found": "app/_not-found.js",
+  "/404/page": "app/404/page.js",
+  "/about/page": "app/about/page.js",
+  "/index2/page": "app/index2/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/project-details/page": "app/project-details/page.js",
+  "/projects-masonry/page": "app/projects-masonry/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/services/page": "app/services/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog-details/page": "app/blog-details/page.js"
 }
